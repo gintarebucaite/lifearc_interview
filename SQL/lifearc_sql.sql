@@ -1,3 +1,5 @@
+CREATE DATABASE LIFEARC;
+
 CREATE TABLE public.antibodies
 (
     unique_id character varying(30) NOT NULL,
