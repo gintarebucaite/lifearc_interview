@@ -26,4 +26,4 @@ ALTER TABLE IF EXISTS public.antibodies
 SELECT *
 FROM antibodies
 WHERE date_created > '2020-01-01' 
-ORDER BY project ASC;
+ORDER BY LOWER(project) ASC;
